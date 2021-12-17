@@ -1,11 +1,7 @@
 import React, { Fragment, useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import Navbar from "./layout/Navbar";
 import MrtgDisplayGraph from "./MrtgComponents/MrtgDisplayGraph";
-import { Routes } from "react-router-dom";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import api from "./service/api";
-import sampleImage from "/xampp/htdocs/mrtgFrontend/public/graphImage/graphs/202.57.54.34_Prepaid-day.png";
 
 const Home = () => {
   const [listOfDax, setListOfDax] = useState([]);
